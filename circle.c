@@ -6,7 +6,7 @@ int main()
     int radius, c;
     printf("Enter The Radius Of The Circle : ");
     scanf("%d", &radius);
-    c = radius * pie;
+    c = radius * radius * pie;
     printf("The Area Of The Circle Will Be  %d", c);
     return 0;
 }
